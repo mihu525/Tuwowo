@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="horizontal" >
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_xiaoshuo_sousuo"
+        android:layout_weight="5"
+        android:singleLine="true"
+        android:hint="请输入搜索关键字:"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_xiaoshuo_sousuo"
+        android:layout_weight="1"
+        android:text="搜索"
+        />
+</LinearLayout>

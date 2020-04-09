@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:gravity="center"
+    android:paddingBottom="10sp"
+    android:paddingTop="10sp"
+    android:textStyle="bold"
+    android:textSize="22sp"
+    android:background="@color/colorPrimary"
+    android:text="播放源一"
+    android:textColor="#000000"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee" />
+

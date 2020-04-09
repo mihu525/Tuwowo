@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkqianse_1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconvideo"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="影视综艺" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_music"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconmusic"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="音乐库" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_zhibo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icontv"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="电视直播" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_douyu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icondouyu"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="网络直播" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="30dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_datasheet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icondatasheet"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="芯片手册" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_xiaofei"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconxiaofei"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="小菲" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_xiaoshuo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconread"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="小说" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_jianshu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconrenren"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="生活随笔" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="30dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_zhoukan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconzhoucan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="时代周刊" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_concert"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconzimu"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="字幕" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_pipiwa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconpipiwa"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="皮皮蛙" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_gangqinshou"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconshou"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="钢琴手" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="30dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_wugui"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconwugui"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="忍者萌龟" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/iconmore"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:text="更多" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_more3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_main_more3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

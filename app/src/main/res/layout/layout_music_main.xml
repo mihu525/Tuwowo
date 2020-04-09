@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/music_top_wy"
+            android:layout_width="0dp"
+            android:layout_height="65sp"
+            android:layout_weight="1"
+            android:text="网易云音乐"
+            android:textColor="#ffffff"
+            android:textSize="23sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/music_top_mg"
+            android:layout_width="0dp"
+            android:layout_height="65sp"
+            android:layout_weight="1"
+            android:text="咪咕音乐"
+            android:textColor="#d5d5d5"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/music_top_kw"
+            android:layout_width="0dp"
+            android:layout_height="65sp"
+            android:layout_weight="1"
+            android:text="酷狗音乐"
+            android:textColor="#d5d5d5"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_music"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="#eeeeee"
+        android:layout_height="70sp">
+
+        <LinearLayout
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <jingpinwu.android.com.MyImageView
+                android:id="@+id/music_btn_img"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:src="@drawable/cd"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/music_btn_songname"
+                android:layout_width="match_parent"
+                android:layout_height="12sp"
+                android:textSize="9sp"
+                android:gravity="center"
+                android:text="点击查看歌词"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textColor="#222222"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/music_edittext_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入音乐/歌手名称"
+            android:selectAllOnFocus="false" />
+
+        <Button
+            android:id="@+id/music_btn_search"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索" />
+    </LinearLayout>
+
+</LinearLayout>
